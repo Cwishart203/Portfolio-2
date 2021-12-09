@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(179, 188, 197);
+}
+
+header {
+    padding: 20px;
+    font-family: sans-serif;
+    background-color:gray;
+    color: white;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+figure {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://lehifreepress.com/wp-content/uploads/2016/12/simple-gray-background-8449-8772-hd-wallpapers.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: sans-serif;
+    background-color: gray;
+    color: white;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+article img {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+.projects {
+    position: relative;
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.projects-title {
+    position: absolute;
+    bottom: 17px;
+    left: 50px;
+    font-size: 30px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    header, section {
+        display: flex;
+        flex-direction: row;
+    }
+    .refactor {
+        display: flex;
+    }
+}
